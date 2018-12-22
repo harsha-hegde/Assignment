@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row header">
+        <h1>Welcome</h1>
+    </div>
+    <div id="navigate">
+        <button class="btn btn-success" (click)="navigateBack()">Go back</button>
+    </div>
+    <div *ngIf="commentvalue.body;else novalue" class="row com-value">
+        <p >{{commentvalue.body}}</p>
+    </div>  
+    
+        <ng-template #novalue>
+            <h5>No Comments please go back</h5>
+          </ng-template>
+
+  
+</div>

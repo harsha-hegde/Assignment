@@ -1,0 +1,14 @@
+div .com-value{
+    margin-top: 4%;
+    width: 50%;
+    margin-left: 20%;
+    background-color:  cornflowerblue;
+}
+
+#navigate{
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.com-value p{
+   padding: 3%;
+}

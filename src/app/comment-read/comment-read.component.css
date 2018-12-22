@@ -1,0 +1,19 @@
+.value-div{
+    margin-top: 2%;
+}
+.value-in{
+    display: block;
+    padding-left: 24%;
+    padding-bottom: 1%;
+    border: 1px solid;
+}
+.value-in h6{
+    margin: 0 auto;
+    padding-top: 1%;
+    cursor: pointer;
+}
+div .value-in:hover{
+    background-color:cadetblue;
+    cursor: pointer;
+
+}
